@@ -1,33 +1,22 @@
 # 综述 <!-- {docsify-ignore-all} -->
 
-由于原作者不再维护 [Auto.js](https://github.com/hyb1996/Auto.js)，我计划在原来4.1版本的基础上继续维护项目，并将原项目命名为 [AutoX.js](https://github.com/kkevsekk1/AutoX)。
+本项目基于 OpenAuto.js 成立 openautojs 社区，此项目旨在让用户享受到免费、开源的 Auto.js
 
 欢迎更多开发者参与这个项目的维护与升级。
 
 这篇文档里有加密相关的内容可能和实际运行情况有冲突，我会逐步完善更新，程序代码，尽可能保持一致。
 
-AutoX.js 使用 JavaScript 作为脚本语言，目前使用 [Rhino 1.7.13](https://github.com/mozilla/rhino) 作为脚本引擎，支持 ES5 与部分 ES6 特性。
+OpenAuto.js 使用 JavaScript 作为脚本语言，目前使用 [Rhino 1.7.13](https://github.com/mozilla/rhino) 作为脚本引擎，支持 ES5 与部分 ES6 特性。
 
-- 学习 AutoX.js 的 API 之前，建议先学习 JavaScript 的基本语法。
-- 如果想要在电脑上开发 AutoX.js，可以使用 VSCode 以及 [AutoX.js 插件](https://marketplace.visualstudio.com/items?itemName=aaroncheng.auto-js-vsce-fixed)。
+- 学习 OpenAuto.js 的 API 之前，建议先学习 JavaScript 的基本语法。
+- 如果想要在电脑上开发 OpenAuto.js，可以使用 VSCode 以及 [OpenAuto.js 插件](https://github.com/openautojs/openautojs-vscode-extension)。
 - 如果想要使用 TypeScript 来开发，目前有开发者公布了一个 [相关工具](https://github.com/pboymt/autojs-dev)。
 
 
 
-# AutoX.js 下载地址
+# OpenAuto.js 下载地址
 
-在 [Github Releases](https://github.com/kkevsekk1/AutoX/releases) 下载
-
-# AutoX.js 的功能
-
-- [x] AutoX.js 项目工程化：结合 webpack vscode 插件，开发、编译、打包、部署、混淆、加密一体化 [文档资料](https://github.com/kkevsekk1/webpack-autojs)
-- [x] vscode 插件右键，自动提示操作等 [下载地址](https://marketplace.visualstudio.com/items?itemName=aaroncheng.auto-js-vsce-fixed)
-- [x] vscode 自动补全、方法注释等 [文档资料](https://github.com/kkevsekk1/webpack-autojs)
-- [x] 修复众多 bug，升级到 5.0.1 ,合并打包插件，升级配置文件等功能
-- [x] 建设论坛、提供 [交流社区](http://www.autoxjs.com/)
-- [ ] 建设应用商店
-- [ ] 提供更好的 SDK 封装
-- [x] 支持 WebSocket 
+在 [Github Releases](https://github.com/openautojs/openautojs/releases) 下载
 
 # 模块
 
@@ -56,17 +45,15 @@ AutoX.js 使用 JavaScript 作为脚本语言，目前使用 [Rhino 1.7.13](http
 - threads: 多线程支持。
 - ui: UI 界面。用于显示自定义的 UI 界面，和用户交互。
 
-除此之外，AutoX.js 内置了对 [Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise) 的支持。
+除此之外，OpenAuto.js 内置了对 [Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise) 的支持。
 
 
 # 参与共建
 
-[软件源码](https://github.com/kkevsekk1/AutoX)
+[软件源码](https://github.com/openautojs/openautojs)
 
-[文档源码](https://github.com/kkevsekk1/AutoXJs-Docs)
+[文档源码](https://github.com/openautojs/openautojs.github.io)
 
 本文档更新稍有滞后，某些模块文档并没写完，希望有开发者共同参与维护！
-
-不用担心你不懂，我们可以讨论交流! 
 
 欢迎大家 PR ，共同参与开源！

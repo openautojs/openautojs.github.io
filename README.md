@@ -1,6 +1,6 @@
 # openautojs 文档
 
-地址 : http://doc.autoxjs.com/
+地址 : https://openautojs.github.io
 
 
 使用 [Docsify](https://github.com/docsifyjs/docsify/) 构建
