@@ -1,4 +1,4 @@
-# AutoX.js 文档
+# openautojs 文档
 
 地址 : http://doc.autoxjs.com/
 
