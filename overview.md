@@ -1,6 +1,6 @@
 # 综述 <!-- {docsify-ignore-all} -->
 
-本项目基于 OpenAuto.js 成立 openautojs 社区，此项目旨在让用户享受到免费、开源的 Auto.js
+本项目 (OpenAuto.js) 基于 AutoX.js 成立 openautojs 社区，此项目旨在让用户享受到免费、开源的 Auto.js
 
 欢迎更多开发者参与这个项目的维护与升级。
 
